@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Practicing my R Markdown
 
-###Getting hold of the Data
+### Getting hold of the Data
 
 First read in the data you will be using in which case this is the Ozone Dataset
 
@@ -28,3 +28,4 @@ library(ggplot2)
 ggplot(Ozone,aes(x=Ozone, fill=Garden.location))+
   geom_histogram(bins=9)
 ```
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
