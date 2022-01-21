@@ -1,3 +1,10 @@
+#Hide project specific files/folders
+rawdata/
+*.ppt #Ignore anything that ends with a powerpoint
+*.docx
+Nonsense.R
+
+
 # History files
 .Rhistory
 .Rapp.history
