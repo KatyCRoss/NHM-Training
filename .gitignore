@@ -2,6 +2,7 @@
 rawdata/
 *.ppt #Ignore anything that ends with a powerpoint
 *.docx
+*html
 Nonsense.R
 
 
