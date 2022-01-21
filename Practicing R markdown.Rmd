@@ -1,0 +1,27 @@
+---
+title: "Test"
+author: "Katy Ross"
+date: "21/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title
+
+## Sub heading
+
+### Sub sub heading
+
+In this section I decided to use data from xxx and I first need to log transform and edit the names and match the taxonomy. 
+
+```{r, echo=FALSE}
+x<-1:100
+y<-rnorm(100)
+```
+
+```{r}
+plot(y~x)
+```
