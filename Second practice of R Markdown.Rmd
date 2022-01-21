@@ -9,6 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+```{r, echo=FALSE}
+library(here)
+```
 ## Practicing my R Markdown
 
 ### Getting hold of the Data
