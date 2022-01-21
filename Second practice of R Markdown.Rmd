@@ -1,0 +1,30 @@
+---
+title: "Practicing R markdown"
+author: "Katy Ross"
+date: "21/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Practicing my R Markdown
+
+###Getting hold of the Data
+
+First read in the data you will be using in which case this is the Ozone Dataset
+
+```{r}
+Ozone<-read.csv("GardenOzone.csv")
+```
+
+### Making graphs
+
+Now I will make a histogram of the ozone data
+```{r}
+library(ggplot2)
+
+ggplot(Ozone,aes(x=Ozone, fill=Garden.location))+
+  geom_histogram(bins=9)
+```
